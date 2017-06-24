@@ -53,7 +53,7 @@
 
 #### **2017.6.20**
 
-- ***Experimental comparison of representation methods and sidtance measures for time series data***
+- ***Experimental comparison of representation methods and similarity measures for time series data***
 
   > ​给出了9种相似性度量的方法和实验
 
