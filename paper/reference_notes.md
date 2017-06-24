@@ -42,3 +42,32 @@
 
 - ***validation of remote sensing retrived products using data from a wireless sensor-based online monitoring in antarctica***
 
+  > 对比了WSN和气象站的数据，说明WSN的观测数据是可靠的
+  >
+  > 但并没有具体分析，为什么两者数据之间具有很高的相似性，然后说明数据是可靠的，只是给出了两张时间序列图（直观上看，趋势也差了挺多的）
+
+- ***Anomaly detection algorithm for localized abnormal weather using low-cost wireless sensor nodes***
+
+  > 通过处理大气压力时间序列数据，观察台风发生前气压的异常变化，定义了一个计算值val = 当前时间的气压值-五分钟前气压值的平方和，论文结果得出：在台风发生前，val值会明显变大，气压波动剧烈！（其实从结果图中，并看不出这一点）。
+
+
+#### **2017.6.20**
+
+- ***Experimental comparison of representation methods and sidtance measures for time series data***
+
+  ​
+
+
+#### **2017.6.24**
+
+- **Time Series+Anomaly Detection+Algorithms+StatsBot**
+
+  > 异常检测：找到偏离标准或通常信号的数据
+  >
+  > STL分解：Seasonal  trend loess decomposition，将数据分为季节性、趋势和残余三部分
+  >
+  > Classification and regression Tree、xgboost、ARIMA、Neural Network(LSTM)
+  >
+  > 另外三篇论文分别详细介绍了STL分解、ARIMA、CART
+  >
+  > 这篇文章主要还是介绍了异常点检测
