@@ -55,7 +55,21 @@
 
 - ***Experimental comparison of representation methods and similarity measures for time series data***
 
-  > ​给出了9种相似性度量的方法和实验
+  > 给出了8种表示方式和9种相似性度量的方法和实验
+  >
+  > 对于大规模数据的表示，常用的还是DFT、DWT、PAA，很少用到SVD
+  >
+  > one to one mapping
+  >
+  > 1.  L1：（曼哈顿距离）
+  > 2.  L2：（欧式距离）数据量较大时，相比于更复杂的方法，也有很好的效果；但对噪声很敏感，无法处理局部值突变的情况
+  >
+  > one to many mapping
+  >
+  > 1.  DTW
+  > 2.  LCSS
+  >
+  > 感觉整篇看下来，没什么重点，只是介绍了几种名词解释。
 
 
 #### **2017.6.24**
@@ -71,3 +85,22 @@
   > 另外三篇论文分别详细介绍了STL分解、ARIMA、CART
   >
   > 这篇文章主要还是介绍了异常点检测
+
+#### 2017.6.27
+
+- **A review of the application of data mining techniques for decision making in agriculture**
+
+  > 这篇文章主要是一个综述，介绍了一系列的数据挖掘技术在农业上的应用：人工神经网络、贝叶斯网络、支持向量机，比如：农作物生长情况、杀虫剂和营养物流失、土壤水分估计等
+  >
+  > **这篇文章给出了很多数据挖掘的定义和名词解释，在写Introduction时可能会用到**
+  >
+  > 数据挖掘就是从大量复杂数据中，找出隐藏的模式特征
+
+
+#### 2017.6.28
+
+- **Least squares support vector machine for short-term prediction of meteorological time series**
+
+  > **K-S检验**：经验分布和理想分布是否一致
+  >
+  > ​
