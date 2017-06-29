@@ -88,7 +88,7 @@
 
 #### 2017.6.27
 
-- **A review of the application of data mining techniques for decision making in agriculture**
+- **A review of the application of data mining techniques for decision making in agriculture（可参考）**
 
   > 这篇文章主要是一个综述，介绍了一系列的数据挖掘技术在农业上的应用：人工神经网络、贝叶斯网络、支持向量机，比如：农作物生长情况、杀虫剂和营养物流失、土壤水分估计等
   >
@@ -99,10 +99,26 @@
 
 #### 2017.6.28
 
-- **Least squares support vector machine for short-term prediction of meteorological time series**
+- **Least squares support vector machine for short-term prediction of meteorological time series（可参考）**
 
   > **K-S检验**：经验分布和理想分布是否一致
   >
   > ​相比于传统的统计方法，神经网络用于时间序列预测的优势
   >
-  > ​
+  > 最重要的，**传统方法不能处理非线性、非平稳的输入，而神经网络可以**
+  >
+  > 劣势：局部最优、过拟合
+  >
+  > SVM可以解决神经网络局部最优的问题，达到全局最优
+  >
+  > **混合模型**
+  >
+  > **文章给出了很多使用神经网络或者混合模型对气象时间序列进行预测的例子，可以参考**
+  >
+  > 评价模型时，不仅要比较精度，还要看模型的泛化能力
+  >
+  > Ls-SVM是一种改进的SVM算法（介绍）
+  >
+  > 太阳辐射（G）温度（T）相对湿度（RH）气压（P）风速（WS）风向（WD)
+  >
+  > ​调参算法：grid search网格搜索，找到所有的参数组合一一实验，得到最优的参数
